@@ -14,7 +14,7 @@ class PetTableViewController: UITableViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.title = "My Pets, Past and Present"
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
