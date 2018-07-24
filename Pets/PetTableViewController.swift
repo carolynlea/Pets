@@ -14,6 +14,7 @@ class PetTableViewController: UITableViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -42,9 +43,10 @@ class PetTableViewController: UITableViewController
         "Fish Tank full of Fish once upon a time",
         "Parakeets at one time",
         "Hamsters when I was young",
-        "A dove called Lenin lives here now",
-        "A rat called Mouse lives here, too",
-        "A stray cat called Gomi comes around",
+        "A dove called Lenin lives here now *current*",
+        "A rat called Mouse lives here, too *current*",
+        "A stray cat called Gomi comes around *current*",
+        "But a big dream of mine is to have PENGUINS for pets!",
         ]
 
 }
